@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+<head itemscope itemtype="http://schema.org/WebSite">
+	<meta name="robots" content="index,follow"/>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="https://gns3labs.github.io/blog/xmlrpc.php">
+	<title>GNS3 Labs | Cisco Networking with GNS3 | GNS3 Tutorial</title>
+
+<!-- This site is optimized with the Yoast SEO plugin v6.3.1 - https://yoast.com/wordpress/plugins/seo/ -->
+<meta name="description" content="GNS3, GNS3 Labs, GNS3 Download, GNS3 IOS Images, GNS3 VM, GNS3 Tutorial, GNS3 Training, GNS3 IOU, Cisco, Cisco IOU, CCENT, CCNA, Router, Switch,"/>
+<link rel="canonical" href="https://gns3labs.github.io/blog/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="GNS3 Labs | Cisco Networking with GNS3 | GNS3 Tutorial" />
+<meta property="og:description" content="GNS3, GNS3 Labs, GNS3 Download, GNS3 IOS Images, GNS3 VM, GNS3 Tutorial, GNS3 Training, GNS3 IOU, Cisco, Cisco IOU, CCENT, CCNA, Router, Switch," />
+<meta property="og:url" content="https://gns3labs.github.io/blog/" />
+<meta property="og:site_name" content="GNS3 Labs" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="GNS3, GNS3 Labs, GNS3 Download, GNS3 IOS Images, GNS3 VM, GNS3 Tutorial, GNS3 Training, GNS3 IOU, Cisco, Cisco IOU, CCENT, CCNA, Router, Switch," />
+<meta name="twitter:title" content="GNS3 Labs | Cisco Networking with GNS3 | GNS3 Tutorial" />
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","@id":"#website","url":"https:\/\/gns3labs.github.io\/blog\/","name":"GNS3 Labs","alternateName":"GNS3 Labs","potentialAction":{"@type":"SearchAction","target":"https:\/\/gns3labs.github.io\/blog\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"Organization","url":"https:\/\/gns3labs.github.io\/blog\/","sameAs":[],"@id":"#organization","name":"GNS3 Labs","logo":"https:\/\/gns3labs.github.io\/blog\/wp-content\/uploads\/2018\/03\/GNS3-Labs.ico"}</script>
+<!-- / Yoast SEO plugin. -->
+
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="GNS3 Labs &raquo; Feed" href="https://gns3labs.github.io/blog/feed/" />
+<link rel="alternate" type="application/rss+xml" title="GNS3 Labs &raquo; Comments Feed" href="https://gns3labs.github.io/blog/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/gns3labs.github.io\/blog\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.4"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='schema-lite-style-css'  href='https://gns3labs.github.io/blog/wp-content/themes/schema-lite/style.css?ver=4.9.4' type='text/css' media='all' />
+<style id='schema-lite-style-inline-css' type='text/css'>
+
+		#site-header, #navigation.mobile-menu-wrapper { background-image: url(''); }
+		.primary-navigation #navigation li:hover > a, #tabber .inside li .meta b,footer .widget li a:hover,.fn a,.reply a,#tabber .inside li div.info .entry-title a:hover, #navigation ul ul a:hover,.single_post a, a:hover, .sidebar.c-4-12 .textwidget a, #site-footer .textwidget a, #commentform a, #tabber .inside li a, .copyrights a:hover, a, .sidebar.c-4-12 a:hover, .top a:hover, footer .tagcloud a:hover, .title a, .related-posts .post:hover .title { color: #0274be; }
+
+		#navigation ul li.current-menu-item a { color: #0274be!important; }
+
+		.nav-previous a:hover, .nav-next a:hover, #commentform input#submit, #searchform input[type='submit'], .home_menu_item, .currenttext, .pagination a:hover, .mts-subscribe input[type='submit'], .pagination .current, .woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce-product-search input[type='submit'], .woocommerce a.button, .woocommerce-page a.button, .woocommerce button.button, .woocommerce-page button.button, .woocommerce input.button, .woocommerce-page input.button, .woocommerce #respond input#submit, .woocommerce-page #respond input#submit, .woocommerce #content input.button, .woocommerce-page #content input.button, .featured-thumbnail .latestPost-review-wrapper.wp-review-show-total, .tagcloud a, .woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce-page nav.woocommerce-pagination ul li span.current, .woocommerce #content nav.woocommerce-pagination ul li span.current, .woocommerce-page #content nav.woocommerce-pagination ul li span.current, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce-page nav.woocommerce-pagination ul li a:hover, .woocommerce #content nav.woocommerce-pagination ul li a:hover, .woocommerce-page #content nav.woocommerce-pagination ul li a:hover, #searchform input[type='submit'], .woocommerce-product-search input[type='submit'] { background-color: #0274be; }
+
+		.woocommerce nav.woocommerce-pagination ul li span.current, .woocommerce-page nav.woocommerce-pagination ul li span.current, .woocommerce #content nav.woocommerce-pagination ul li span.current, .woocommerce-page #content nav.woocommerce-pagination ul li span.current, .woocommerce nav.woocommerce-pagination ul li a:hover, .woocommerce-page nav.woocommerce-pagination ul li a:hover, .woocommerce #content nav.woocommerce-pagination ul li a:hover, .woocommerce-page #content nav.woocommerce-pagination ul li a:hover, .woocommerce nav.woocommerce-pagination ul li a:focus, .woocommerce-page nav.woocommerce-pagination ul li a:focus, .woocommerce #content nav.woocommerce-pagination ul li a:focus, .woocommerce-page #content nav.woocommerce-pagination ul li a:focus, .pagination .current, .tagcloud a { border-color: #0274be; }
+		.corner { border-color: transparent transparent #0274be transparent;}
+
+		footer, #commentform input#submit:hover, .featured-thumbnail .latestPost-review-wrapper { background-color: #222222; }
+			
+</style>
+<link rel='stylesheet' id='schema-lite-fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto+Slab%3A300%2C400%7CRaleway%3A400%2C500%2C700&#038;subset=latin-ext' type='text/css' media='all' />
+<script type='text/javascript' src='https://gns3labs.github.io/blog/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://gns3labs.github.io/blog/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://gns3labs.github.io/blog/wp-content/themes/schema-lite/js/customscripts.js?ver=4.9.4'></script>
+<link rel='https://api.w.org/' href='https://gns3labs.github.io/blog/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://gns3labs.github.io/blog/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://gns3labs.github.io/blog/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.4" />
+	<style type="text/css">
+			.site-title a,
+		.site-description, #navigation a {
+			color: #ffffff;
+		}
+		</style>
+			<style type="text/css" id="wp-custom-css">
+			span.featured-cat {
+    display: none;
+}
+span.thecomment {
+    display: none;
+}
+.primary-navigation {
+    display: none;
+}		</style>
+	</head>
+
+<body class="home blog wp-custom-logo hfeed" itemscope itemtype="http://schema.org/WebPage">
+	<div class="main-container">
+		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+		<div class="top-navigation">
+			<div class="container clear">
+				<nav id="navigation" class="top-navigation" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+									</nav><!-- #site-navigation -->
+			</div>
+		</div>
+		<header id="site-header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+			<div class="container clear">
+				<div class="site-branding">
+																		<h1 id="logo" class="image-logo" itemprop="headline">
+								<a href="https://gns3labs.github.io/blog/" class="custom-logo-link" rel="home" itemprop="url"><img src="https://gns3labs.github.io/blog/wp-content/uploads/2018/03/GNS3-Labs.ico" class="custom-logo" alt="GNS3 Labs" itemprop="logo" /></a>							</h1><!-- END #logo -->
+															</div><!-- .site-branding -->
+
+				<div class="primary-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+					<a href="#" id="pull" class="toggle-mobile-menu">Menu</a>
+					<nav id="navigation" class="primary-navigation mobile-menu-wrapper" role="navigation">
+													<ul class="menu clearfix">
+									<li class="cat-item cat-item-1"><a href="https://gns3labs.github.io/blog/gns3/" >GNS3 Labs</a>
+</li>
+							</ul>
+											</nav><!-- #site-navigation -->
+				</div>
+			</div>
+			
+		</header><!-- #masthead -->
+	<div id="page" class="home-page">
+		<div id="content" class="article">
+					<article class="post excerpt">
+			<header>						
+				<h2 class="title">
+					<a href="https://gns3labs.github.io/blog/welcome-gns3-labs-blog/" title="Welcome to the GNS3 Labs blog!" rel="bookmark">Welcome to the GNS3 Labs blog!</a>
+				</h2>
+				<div class="post-info">
+					<span class="theauthor"><i class="schema-lite-icon icon-user"></i> By <a href="https://gns3labs.github.io/blog/author/gns3/" title="Posts by gns3" rel="author">gns3</a></span>
+                    <span class="posted-on entry-date date updated"><i class="schema-lite-icon icon-calendar"></i> March 5, 2018</span>
+					<span class="featured-cat"><i class="schema-lite-icon icon-tags"></i> <a href="https://gns3labs.github.io/blog/gns3/" rel="category tag">GNS3 Labs</a></span>
+					<span class="thecomment"><i class="schema-lite-icon icon-comment"></i> <a href="https://gns3labs.github.io/blog/welcome-gns3-labs-blog/#respond">0 Comments</a></span>
+				</div>
+			</header><!--.header-->
+											<div class="post-content">
+					Welcome to the GNS3 Labs blog page! Here I will make some sharings to prepare for the Cisco exams with GNS3. Do not forget to follow the GNS3 Labs blog!...				</div>
+						<div class="readMore">
+			<a href="https://gns3labs.github.io/blog/welcome-gns3-labs-blog/" title="Welcome to the GNS3 Labs blog!">
+				[Continue reading...]			</a>
+		</div>
+							</article>
+		<nav class="navigation posts-navigation" role="navigation">
+		<!--Start Pagination-->
+			</nav><!--End Pagination-->
+			</div><!-- .article -->
+		
+<aside class="sidebar c-4-12">
+	<div id="sidebars" class="sidebar">
+		<div class="sidebar_list">
+			<div id="search-2" class="widget widget_search"><form method="get" id="searchform" class="search-form" action="https://gns3labs.github.io/blog/" _lpchecked="1">
+	<fieldset>
+		<input type="text" name="s" id="s" value="">
+		<input type="submit" value="Search" />
+	</fieldset>
+</form>
+</div>		<div id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="widget-title">Recent Posts</h3>		<ul>
+											<li>
+					<a href="https://gns3labs.github.io/blog/welcome-gns3-labs-blog/">Welcome to the GNS3 Labs blog!</a>
+									</li>
+					</ul>
+		</div>		</div>
+	</div><!--sidebars-->
+</aside>		</div>
+			<footer id="site-footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+		<!--start copyrights-->
+<div class="copyrights">
+	<div class="container">
+		<div class="row" id="copyright-note">
+			<span><a href="https://gns3labs.github.io/blog/" title="GNS3 Labs">GNS3 Labs</a> Copyright &copy; 2018.</span>
+			<div class="top">
+								<a href="#top" class="toplink">Back to Top &uarr;</a>
+			</div>
+		</div>
+	</div>
+</div>
+<!--end copyrights-->
+	</footer><!-- #site-footer -->
+<script type='text/javascript' src='https://gns3labs.github.io/blog/wp-includes/js/wp-embed.min.js?ver=4.9.4'></script>
+
+</body>
+</html>
