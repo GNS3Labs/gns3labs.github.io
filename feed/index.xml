@@ -9,8 +9,8 @@
 
 <channel>
 	<title>GNS3 Labs</title>
-	<atom:link href="https://gns3labs.github.io/blog/feed/" rel="self" type="application/rss+xml" />
-	<link>https://gns3labs.github.io/blog/</link>
+	<atom:link href="https://gns3labs.github.io/feed/" rel="self" type="application/rss+xml" />
+	<link>https://gns3labs.github.io/</link>
 	<description>GNS3 Labs</description>
 	<lastBuildDate>Mon, 05 Mar 2018 10:00:38 +0000</lastBuildDate>
 	<language>en-US</language>
@@ -19,22 +19,22 @@
 	<generator>https://wordpress.org/?v=4.9.4</generator>
 	<item>
 		<title>Welcome to the GNS3 Labs blog!</title>
-		<link>https://gns3labs.github.io/blog/welcome-gns3-labs-blog/</link>
-		<comments>https://gns3labs.github.io/blog/welcome-gns3-labs-blog/#respond</comments>
+		<link>https://gns3labs.github.io/welcome-gns3-labs-blog/</link>
+		<comments>https://gns3labs.github.io/welcome-gns3-labs-blog/#respond</comments>
 		<pubDate>Mon, 05 Mar 2018 09:19:07 +0000</pubDate>
 		<dc:creator><![CDATA[gns3]]></dc:creator>
 				<category><![CDATA[GNS3 Labs]]></category>
 
-		<guid isPermaLink="false">https://gns3labs.github.io/blog/?p=1</guid>
+		<guid isPermaLink="false">https://gns3labs.github.io/?p=1</guid>
 		<description><![CDATA[<p>Welcome to the GNS3 Labs blog page! Here I will make some sharings to prepare for the Cisco exams with GNS3. Do not forget to follow the GNS3 Labs blog!</p>
-<p>The post <a rel="nofollow" href="https://gns3labs.github.io/blog/welcome-gns3-labs-blog/">Welcome to the GNS3 Labs blog!</a> appeared first on <a rel="nofollow" href="https://gns3labs.github.io/blog/">GNS3 Labs</a>.</p>
+<p>The post <a rel="nofollow" href="https://gns3labs.github.io/welcome-gns3-labs-blog/">Welcome to the GNS3 Labs blog!</a> appeared first on <a rel="nofollow" href="https://gns3labs.github.io/">GNS3 Labs</a>.</p>
 ]]></description>
 				<content:encoded><![CDATA[<p>Welcome to the GNS3 Labs blog page! Here I will make some sharings to prepare for the Cisco exams with GNS3.</p>
 <p>Do not forget to follow the GNS3 Labs blog!</p>
-<p><img class="alignnone size-full wp-image-11" src="https://gns3labs.github.io/blog/wp-content/uploads/2018/03/gns3-tutorial.png" alt="GNS3 Labs" width="600" height="600" srcset="https://gns3labs.github.io/blog/wp-content/uploads/2018/03/gns3-tutorial.png 600w, https://gns3labs.github.io/blog/wp-content/uploads/2018/03/gns3-tutorial-150x150.png 150w" sizes="(max-width: 600px) 100vw, 600px" /></p>
-<p>The post <a rel="nofollow" href="https://gns3labs.github.io/blog/welcome-gns3-labs-blog/">Welcome to the GNS3 Labs blog!</a> appeared first on <a rel="nofollow" href="https://gns3labs.github.io/blog/">GNS3 Labs</a>.</p>
+<p><img class="alignnone size-full wp-image-11" src="https://gns3labs.github.io/wp-content/uploads/2018/03/gns3-tutorial.png" alt="GNS3 Labs" width="600" height="600" srcset="https://gns3labs.github.io/wp-content/uploads/2018/03/gns3-tutorial.png 600w, https://gns3labs.github.io/wp-content/uploads/2018/03/gns3-tutorial-150x150.png 150w" sizes="(max-width: 600px) 100vw, 600px" /></p>
+<p>The post <a rel="nofollow" href="https://gns3labs.github.io/welcome-gns3-labs-blog/">Welcome to the GNS3 Labs blog!</a> appeared first on <a rel="nofollow" href="https://gns3labs.github.io/">GNS3 Labs</a>.</p>
 ]]></content:encoded>
-			<wfw:commentRss>https://gns3labs.github.io/blog/welcome-gns3-labs-blog/feed/</wfw:commentRss>
+			<wfw:commentRss>https://gns3labs.github.io/welcome-gns3-labs-blog/feed/</wfw:commentRss>
 		<slash:comments>0</slash:comments>
 		</item>
 	</channel>

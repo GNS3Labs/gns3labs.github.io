@@ -236,8 +236,8 @@ textarea {
 }
 @font-face {
     font-family: 'schema-lite';
-    src: url('https://gns3labs.github.io/blog/wp-content/themes/schema-lite/fonts/schema-lite.eot');
-    src: url('https://gns3labs.github.io/blog/wp-content/themes/schema-lite/fonts/schema-lite.eot#iefix') format('embedded-opentype'), url('https://gns3labs.github.io/blog/wp-content/themes/schema-lite/fonts/schema-lite.woff2') format('woff2'), url('https://gns3labs.github.io/blog/wp-content/themes/schema-lite/fonts/schema-lite.woff') format('woff'), url('https://gns3labs.github.io/blog/wp-content/themes/schema-lite/fonts/schema-lite.ttf') format('truetype'), url('https://gns3labs.github.io/blog/wp-content/themes/schema-lite/fonts/schema-lite.svg') format('svg');
+    src: url('https://gns3labs.github.io/wp-content/themes/schema-lite/fonts/schema-lite.eot');
+    src: url('https://gns3labs.github.io/wp-content/themes/schema-lite/fonts/schema-lite.eot#iefix') format('embedded-opentype'), url('https://gns3labs.github.io/wp-content/themes/schema-lite/fonts/schema-lite.woff2') format('woff2'), url('https://gns3labs.github.io/wp-content/themes/schema-lite/fonts/schema-lite.woff') format('woff'), url('https://gns3labs.github.io/wp-content/themes/schema-lite/fonts/schema-lite.ttf') format('truetype'), url('https://gns3labs.github.io/wp-content/themes/schema-lite/fonts/schema-lite.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
